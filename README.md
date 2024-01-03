@@ -9,9 +9,10 @@ Installation by hand:
 ```bash
 cd ~/.local/
 git clone git@github.com:napalm255/powerbash.git
+cd powerbash
 git remote add tovrstra git@github.com:tovrstra/powerbash.git
 git fetch tovrstra
-git checkout main
+git checkout merged1
 ```
 
 Add to `.bashrc` (after direnv):
